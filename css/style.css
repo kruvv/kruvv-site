@@ -526,7 +526,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 150px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 
@@ -542,7 +542,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 
 .main__title {
@@ -592,7 +592,10 @@ img {
 /* Media start */
 
 @media screen and (max-width: 960px) {
-
+  .header {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
 
 }
 
